@@ -51,17 +51,18 @@ body{
   grid-template-columns: 25% 25% 25% 25%;
 }
 
-@media only screen and (max-width:1179px){
+@media only screen and (max-width:625px){
   #song-display{
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 100%;
+  }
+  .play-space{
+    padding: 0;
+  }
+  #playing{
+    padding: 0;
   }
 }
 
-@media only screen and (max-width:950px){
-  .play-space i{
-    font-size: 20px;
-  }
-}
 @media only screen and (max-width:900px){
   #song-display{
     grid-template-columns: 50% 50%;
@@ -75,14 +76,18 @@ body{
     padding: 3% 17%;
   }
 }
-@media only screen and (max-width:625px){
-  #song-display{
-    grid-template-columns: 100%;
-  }
-  .play-space{
-    padding: 0;
-  }
-  #playing{
-    padding: 0;
+
+@media only screen and (max-width:950px){
+  .play-space i{
+    font-size: 20px;
   }
 }
+
+@media only screen and (max-width:1179px){
+  #song-display{
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+
+
