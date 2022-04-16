@@ -51,18 +51,18 @@ body{
   grid-template-columns: 25% 25% 25% 25%;
 }
 
-@media(max-width:1179px){
+@media only screen and (max-width:1179px){
   #song-display{
     grid-template-columns: 33% 33% 33%;
   }
 }
 
-@media(max-width:950px){
+@media only screen and (max-width:950px){
   .play-space i{
     font-size: 20px;
   }
 }
-@media(max-width:900px){
+@media only screen and (max-width:900px){
   #song-display{
     grid-template-columns: 50% 50%;
   }
@@ -75,7 +75,7 @@ body{
     padding: 3% 17%;
   }
 }
-@media(max-width:625px){
+@media only screen and (max-width:625px){
   #song-display{
     grid-template-columns: 100%;
   }
